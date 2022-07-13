@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(rgb(92, 92, 92),black);
+}
+.container{
+    width: 1024px;
+    min-height: 600px;
+    margin: 200px auto;
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ul{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+li{ display: inline-block;
+    margin-bottom: 15px;
+}
+.done{
+    color: green;
+}
+.close{
+    color: red;
+}
+.done, .close:hover{
+    cursor: pointer;
+}
+.activity{
+    display:none;
+}

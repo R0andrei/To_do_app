@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="document.form.text.focus()">
+<div class="container">
+<p>To do list</p>
+<form name="form" onsubmit="return false">
+<input type="text" name="text" id="text" placeholder="Task" size="30">
+<input type="submit" value="Add" onclick="Add()">  
+</form>
+<ul>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(0)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(0)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(1)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(1)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(2)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(2)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(3)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(3)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(4)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(4)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(5)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(5)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(6)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(6)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(7)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(7)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(8)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(8)">close</span>
+    </div>
+    <div class="activity">
+        <li></li>
+        <span class="material-symbols-outlined done" onclick="Ready(9)">done</span>
+        <span class="material-symbols-outlined close" onclick="Delete(9)">close</span>
+    </div>
+</ul>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
