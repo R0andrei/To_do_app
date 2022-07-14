@@ -37,10 +37,10 @@ function Delete(n){
         myCheck[index-2]="new";
         index--;
     }
-    mystyle();
+    myStyle();
 }
 
-function mystyle(){
+function myStyle(){
     let list = document.getElementsByTagName("li");
     let len = list.length;
     for(i=0;i<len;i++){
